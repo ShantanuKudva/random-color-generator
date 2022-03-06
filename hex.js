@@ -7,8 +7,7 @@ btn.addEventListener('click', function(){
 
     const randomNumber = getRandomHex();
     document.body.style.backgroundColor = randomNumber;
-    document.body.style.transition = 'all 0.3s'
-
+    document.body.style.transition = 'all 0.3s';
     // //color is the text whcih tells us which color is being displayed after clicking
     color.textContent = randomNumber;
 
